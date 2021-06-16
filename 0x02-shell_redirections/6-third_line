@@ -1,2 +1,2 @@
 #!/bin/bash
-cat lacta | awk 'NR==3'
+head -n 3 lacta | tail -n -1
