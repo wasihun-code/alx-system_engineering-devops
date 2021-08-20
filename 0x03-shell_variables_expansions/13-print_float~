@@ -1,2 +1,0 @@
-#!/bin/bash
-echo $NUM | awm '{printf"%.2f",$1}'
