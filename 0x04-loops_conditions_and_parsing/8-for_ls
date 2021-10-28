@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Prints Best schoo 10 times using for loop
+for FILE in *;
+do
+    n=${FILE##*-}
+    echo "$n"
+done
