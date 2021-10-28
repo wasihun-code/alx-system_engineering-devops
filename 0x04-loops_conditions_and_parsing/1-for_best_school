@@ -2,5 +2,5 @@
 # Prints Best schoo 10 times using for loop
 for ((i = 0 ; i <= 9 ; i++));
 do
-    echo "Best school"
+    echo "Best School"
 done
