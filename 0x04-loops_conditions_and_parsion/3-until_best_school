@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Used to print Best school using until loop
+i=0
+until [ ! $i -lt 10 ]
+do
+   echo "Best School"
+   ((i++))
+done
