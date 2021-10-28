@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # Prints Best School using while loop
 i=0
-while((i<=9))
+while [ $i -lt 10 ]
 do
     echo "Best School"
-    let i++
+    ((i++))
 done

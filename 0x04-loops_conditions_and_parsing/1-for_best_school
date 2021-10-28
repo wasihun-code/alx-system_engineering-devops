@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # Prints Best schoo 10 times using for loop
-for ((i = 0 ; i <= 9 ; i++)); do
+for ((i = 0 ; i <= 9 ; i++));
+do
     echo "Best school"
 done
