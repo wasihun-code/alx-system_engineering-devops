@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Prints line containing the bash word.
+pgrep bash -l
