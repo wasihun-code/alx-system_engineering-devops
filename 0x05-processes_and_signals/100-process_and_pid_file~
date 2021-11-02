@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# creates file containing its pid uses signals mostly
+
+a=$(pgrep -f 100-processes_and_pid_file)
+sudo echo "$a" >> "/var/run/myscript.pid"
+
+trap "Echo I hate the kill command" SIGTERM
+trap "Y U no love me?!" SIGINT
+trap "rm /var/run/myscript.pid" SIGQUIT SIGTERM
+
+while :
+do
+    echo "To infinity and beyond"
+    sleep 2
+done
